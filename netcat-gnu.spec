@@ -2,7 +2,7 @@
 
 Name:           netcat-gnu
 Version:        0.7.1
-Release:        %mkrel 5
+Release:        %mkrel 6
 Epoch:          0
 Summary:        Networking utility that manages TCP and UDP connections
 License:        GPL
@@ -12,7 +12,7 @@ Source0:        http://osdn.dl.sourceforge.net/sourceforge/netcat/netcat-%{versi
 Source1:        http://netcat.sourceforge.net/signatures/md5sums.txt
 Source2:        http://netcat.sourceforge.net/signatures/netcat-%{version}.tar.bz2.asc
 Obsoletes:      netcat <= 0.7.1-4mdv
-Provides:       netcat
+Provides:       netcat = 1.0
 Conflicts:      netcat-traditional
 Conflicts:      netcat-openbsd
 Requires(post): info-install
