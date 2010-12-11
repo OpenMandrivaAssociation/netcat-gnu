@@ -2,7 +2,7 @@
 
 Name:           netcat-gnu
 Version:        0.7.1
-Release:        %mkrel 7
+Release:        %mkrel 8
 Epoch:          0
 Summary:        Networking utility that manages TCP and UDP connections
 License:        GPL
