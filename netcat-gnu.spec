@@ -1,23 +1,19 @@
 %define real_name netcat
 
-Name:           netcat-gnu
-Version:        0.7.1
-Release:        %mkrel 8
-Epoch:          0
-Summary:        Networking utility that manages TCP and UDP connections
-License:        GPL
-Group:          Networking/Other
-URL:            http://netcat.sourceforge.net/
-Source0:        http://osdn.dl.sourceforge.net/sourceforge/netcat/netcat-%{version}.tar.bz2
-Source1:        http://netcat.sourceforge.net/signatures/md5sums.txt
-Source2:        http://netcat.sourceforge.net/signatures/netcat-%{version}.tar.bz2.asc
-Obsoletes:      netcat <= 0.7.1-4mdv
-Provides:       netcat = 1.0
-Conflicts:      netcat-traditional
-Conflicts:      netcat-openbsd
-Requires(post): info-install
-Requires(preun):info-install
-BuildRoot:      %{_tmppath}/%{name}-%{version}
+Name:		netcat-gnu
+Version:	0.7.1
+Release:	9
+Epoch:		0
+Summary:	Networking utility that manages TCP and UDP connections
+License:	GPLv2+
+Group:		Networking/Other
+URL:		http://netcat.sourceforge.net/
+Source0:	http://osdn.dl.sourceforge.net/sourceforge/netcat/netcat-%{version}.tar.bz2
+Source1:	http://netcat.sourceforge.net/signatures/md5sums.txt
+Source2:	http://netcat.sourceforge.net/signatures/netcat-%{version}.tar.bz2.asc
+Provides:	netcat = 1.0
+Conflicts:	netcat-traditional
+Conflicts:	netcat-openbsd
 
 %description
 Netcat is a featured networking utility which reads and writes data across
@@ -33,30 +29,20 @@ built-in capabilities.
 %setup -q -n %{real_name}-%{version}
 
 %build
-%{configure2_5x}
-%{make}
+%configure2_5x
+%make
 
 %install
-%{__rm} -rf %{buildroot}
-%{makeinstall}
-(cd %{buildroot}%{_infodir} && %{__ln_s} netcat.info nc.info)
-(cd %{buildroot}%{_mandir}/man1 && %{__ln_s} netcat.1 nc.1)
+%__rm -rf %{buildroot}
+%makeinstall
+(cd %{buildroot}%{_infodir} && %__ln_s netcat.info nc.info)
+(cd %{buildroot}%{_mandir}/man1 && %__ln_s netcat.1 nc.1)
 
-%{__rm} doc/drafts/Makefile*
+%__rm doc/drafts/Makefile*
 
 %find_lang %{real_name}
 
-%clean
-%{__rm} -rf %{buildroot}
-
-%post
-%_install_info %{real_name}
-
-%preun
-%_remove_install_info %{real_name}
-
 %files -f %{real_name}.lang
-%defattr(-,root,root)
 %doc AUTHORS COPYING ChangeLog NEWS README TODO doc/migration doc/drafts
 %{_bindir}/netcat
 %{_bindir}/nc
