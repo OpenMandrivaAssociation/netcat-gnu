@@ -1,0 +1,48 @@
+
+This file contains the MD5SUMs for the files released by the Netcat Project.
+If you find any unmatching file on the web, contact me immediately at my
+email address reported on the website, reporting the download site and the
+unmatching md5sum.
+
+http://netcat.sourceforge.net/
+
+
+088def25efe04dcdd1f8369d8926ab34  netcat-0.7.1.tar.gz
+0a29eff1736ddb5effd0b1ec1f6fe0ef  netcat-0.7.1.tar.bz2
+a0d2432cbcb38f026b51b1387cd0034d  netcat-0.7.1-1.i386.rpm
+b65a1d444df4eff048983ad539d81f01  netcat-0.7.1-1.src.rpm
+
+215abb39e3aa001c1f48f319321266aa  netcat-0.7.0.tar.gz
+058a02e14ff2c05ba693f6ecf3ca991d  netcat-0.7.0.tar.bz2
+88b8cfd8064869e985a093781be20743  netcat-0.7.0-1.i386.rpm
+19a100231ab01786ca0fa95afb41f9f0  netcat-0.7.0-1.src.rpm
+
+29b1bd3925267d9b3e84163b187fadf6  netcat-0.6.1.tar.gz
+50b5561e4568818b538116c089afb69b  netcat-0.6.1.tar.bz2
+e796da41916c80ed819a244bedc14bca  netcat-0.6.1-1.i386.rpm
+39be6262203e9d642b697db410da3c56  netcat-0.6.1-1.src.rpm
+
+2b604d6a91eb22ebeb172940706717e4  netcat-0.6.0.tar.gz
+4b7aa22acea3374b8a7cc68e9e1fcf18  netcat-0.6.0.tar.bz2
+1d30da59dfc0675440ed708351db9e97  netcat-0.6.0-1.i386.rpm
+c3a51059942352f5dd4350f5b6c6ad35  netcat-0.6.0-1.src.rpm
+
+aaee348b3bea6ebde2c9c951e788b8dc  netcat-0.5.2.tar.gz
+
+b104369f4c2bb2fb447add773415443a  netcat-0.5.1.tar.gz
+
+9a97194216379bdceeddd1c832d08fa5  netcat-0.5.0.tar.gz
+
+e8a64132e7c57f754853231a7fd5ab33  netcat-0.4.0.tar.gz
+
+a26fc435fab37f8af95b255912962295  netcat-0.3.1.tar.gz
+
+b3df28c5869f4afeab98737c638bd207  netcat-0.3.0.tar.gz
+
+70ca9b21900b7219f01430582e6ba1a5  netcat-0.2.2.tar.gz
+
+bb9c6fecd131fc8df4961962a39cf10d  netcat-0.2.1.tar.gz
+
+5433d3b54579fa640319a1829e4c58ac  netcat-0.2.0.tar.gz
+
+748accd1044ee245975a73f7404b5628  netcat-0.1.0.tar.gz
