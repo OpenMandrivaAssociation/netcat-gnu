@@ -3,7 +3,7 @@
 Summary:	Networking utility that manages TCP and UDP connections
 Name:		netcat-gnu
 Version:	0.7.1
-Release:	17
+Release:	18
 License:	GPLv2
 Group:		Networking/Other
 Url:		http://netcat.sourceforge.net/
