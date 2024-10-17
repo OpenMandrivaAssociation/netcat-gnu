@@ -6,7 +6,7 @@ Version:	0.7.1
 Release:	23
 License:	GPLv2
 Group:		Networking/Other
-Url:		http://netcat.sourceforge.net/
+Url:		https://netcat.sourceforge.net/
 Source0:	http://osdn.dl.sourceforge.net/sourceforge/netcat/netcat-%{version}.tar.bz2
 Source1:	http://netcat.sourceforge.net/signatures/md5sums.txt
 Source2:	http://netcat.sourceforge.net/signatures/netcat-%{version}.tar.bz2.asc
