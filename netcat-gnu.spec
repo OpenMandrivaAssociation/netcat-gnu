@@ -14,6 +14,11 @@ Provides:	netcat = 1.0
 Conflicts:	netcat-traditional
 Conflicts:	netcat-openbsd
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Netcat is a featured networking utility which reads and writes data across
 network connections, using the TCP/IP protocol.
